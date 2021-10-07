@@ -9,7 +9,8 @@ const PreLoader = () => {
 		canvas.current.style.position = "absolute";
 		canvas.current.style.zIndex = -1;
 		document.body.style.background = "transparent";
-
+		
+		// ASCII Characters
 		let letters =
 			"ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ";
 		letters = letters.split("");
